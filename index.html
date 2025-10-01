@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delicia Cookies</title>
+  <link rel="stylesheet" href="1.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Delicia Cookies 🍪</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Galletas artesanales, recién horneadas</h2>
+    <p>El sabor que te hará sonreír.</p>
+    <button onclick="mostrarPromo()">¡Ver promoción!</button>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Nuestras Galletas</h2>
+    <div class="galletas">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1589308078054-832b6b8fc61a" alt="Galleta Chocolate" />
+        <h3>Galleta de Chocolate</h3>
+        <p>Clásica y deliciosa. Con trozos de chocolate negro.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1607082349567-0975a3b99907" alt="Galleta Vainilla" />
+        <h3>Galleta de Vainilla</h3>
+        <p>Suave y dulce, perfecta con un café.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Galleta Avena" />
+        <h3>Galleta de Avena</h3>
+        <p>Una opción más saludable sin perder sabor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delicia Cookies. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
